@@ -1,0 +1,141 @@
+@media only screen and (max-width: 768px) {
+  .header-title {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 16px;
+  }
+
+  .products {
+    width: 97%;
+    max-height: 186px;
+  }
+
+  .products-up {
+    display: flex;
+    margin-top: 7px;
+  }
+
+  .products__item,
+  .more-products__item {
+    display: flex;
+    height: 70px;
+    width: 221px;
+    margin-left: 25px;
+    border-radius: 6px;
+    border: solid #eaeaea 1px;
+  }
+
+  .products__item__lenovoImg,
+  .more-products__item__lenovoImg {
+    height: 32px;
+    width: 126px;
+  }
+
+  .products__item__lenovo-arrow,
+  .more-products__item__lenovo-arrow {
+    margin-left: 34px;
+    margin-top: 16px;
+  }
+
+  .products__item__samsungImg {
+    height: 37px;
+    width: 130px;
+  }
+
+  .products__item__samsung-arrow,
+  .more-products__item__samsung-arrow {
+    margin-left: 31px;
+    margin-top: 16px;
+  }
+
+  .products__item__appleImg,
+  .more-products__item__appleImg {
+    height: 44px;
+    width: 44px;
+    margin-left: 12px;
+    margin-top: 11px;
+  }
+
+  .products__item__apple-arrow,
+  .more-products__item__apple-arrow {
+    margin-left: 111px;
+    margin-top: 15px;
+  }
+
+  .products-down {
+    display: flex;
+    margin-top: 17px;
+  }
+
+  .products__item__boschImg {
+    height: 34px;
+    width: 132px;
+  }
+
+  .products__item__bosch-arrow {
+    margin-left: 22px;
+    margin-top: 15px;
+  }
+
+  .products__item__hpImg {
+    height: 52px;
+    width: 53px;
+  }
+
+  .products__item__hp-arrow {
+    margin-left: 106px;
+    margin-top: 15px;
+  }
+
+  .products__item__acerImg {
+    height: 24px;
+    width: 96px;
+  }
+
+  .products__item__acer_arrow {
+    margin-left: 56px;
+    margin-top: 15px;
+  }
+
+  .products__item-sony,
+  .products__item-viewSonic {
+    display: none;
+  }
+  .more {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+  }
+
+  #btn {
+    margin-left: 8px;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    height: 24px;
+    width: 113px;
+    margin-top: 23px;
+    border: none;
+    background: white;
+  }
+
+  #imgDown {
+    height: 24px;
+    width: 24px;
+    margin-left: 25px;
+    margin-top: 21px;
+  }
+
+  .swiper-container {
+    display: none;
+  }
+}

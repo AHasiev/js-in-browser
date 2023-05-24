@@ -1,0 +1,399 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/TTLakes-Medium.ttf") format("truetype");
+  font-size: 16px;
+  font-weight: 500;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 56px;
+  width: 1120px;
+}
+
+.header-title {
+  font-family: "TT Lakes";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+.products {
+  width: 1120px;
+  max-height: 186px;
+}
+
+.products-up {
+  display: flex;
+  margin-top: 7px;
+}
+
+.products__item,
+.products__item-sony,
+.products__item-viewSonic,
+.more-products__item {
+  display: flex;
+  height: 70px;
+  width: 238px;
+  margin-left: 32px;
+  border-radius: 6px;
+  border: solid #eaeaea 1px;
+}
+
+.products__item__lenovoImg,
+.more-products__item__lenovoImg {
+  height: 32px;
+  width: 126px;
+  margin-top: 20px;
+  margin-left: 6px;
+}
+
+.products__item__lenovo-arrow,
+.more-products__item__lenovo-arrow {
+  margin-left: 51px;
+  margin-top: 16px;
+}
+
+.products__item__samsungImg {
+  height: 37px;
+  width: 130px;
+  margin-top: 19px;
+  margin-left: 5px;
+}
+
+.products__item__samsung-arrow,
+.more-products__item__samsung-arrow {
+  margin-left: 48px;
+  margin-top: 16px;
+}
+
+.products__item__appleImg,
+.more-products__item__appleImg {
+  height: 44px;
+  width: 44px;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+
+.products__item__apple-arrow,
+.more-products__item__apple-arrow {
+  margin-left: 126px;
+  margin-top: 15px;
+}
+
+.products__item_viewSonicImg {
+  height: 21px;
+  width: 148px;
+  margin-left: 3px;
+  margin-top: 26px;
+}
+
+.products__item_viewSonic-arrow {
+  margin-left: 32px;
+  margin-top: 15px;
+}
+
+.products-down {
+  display: flex;
+  margin-top: 17px;
+}
+
+.products__item__boschImg {
+  height: 34px;
+  width: 132px;
+  margin-left: 12px;
+  margin-top: 17px;
+}
+
+.products__item__bosch-arrow {
+  margin-left: 39px;
+  margin-top: 15px;
+}
+
+.products__item__hpImg {
+  height: 52px;
+  width: 53px;
+  margin-left: 8px;
+  margin-top: 9px;
+}
+
+.products__item__hp-arrow {
+  margin-left: 122px;
+  margin-top: 15px;
+}
+
+.products__item__acerImg {
+  height: 24px;
+  width: 96px;
+  margin-top: 23px;
+  margin-left: 14px;
+}
+
+.products__item__acer_arrow {
+  margin-left: 72px;
+  margin-top: 15px;
+}
+
+.products__item__sonyImg {
+  height: 26px;
+  width: 135px;
+  margin-top: 22px;
+  margin-left: 9px;
+}
+
+.products__item__sony-arrow {
+  margin-left: 39px;
+  margin-top: 14px;
+}
+
+.more {
+  display: none;
+}
+
+.more-container {
+  display: flex;
+  margin-top: 17px;
+  margin-bottom: 21px;
+  width: 819px;
+}
+
+.more-products__item__samsungImg {
+  height: 33px;
+  width: 130px;
+  margin-top: 19px;
+  margin-left: 5px;
+}
+
+.btn {
+  display: flex;
+}
+
+#btn {
+  margin-left: 8px;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  height: 24px;
+  width: 113px;
+  margin-top: 23px;
+  border: none;
+  background: white;
+}
+
+#imgDown {
+  height: 24px;
+  width: 24px;
+  margin-left: 31px;
+  margin-top: 23px;
+}
+
+#imgUp {
+  display: none;
+}
+
+.swiper-container {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-title {
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 16px;
+  }
+
+  .products {
+    width: 97%;
+    max-height: 186px;
+  }
+
+  .products-up {
+    display: flex;
+    margin-top: 7px;
+  }
+
+  .products__item,
+  .more-products__item {
+    display: flex;
+    height: 70px;
+    width: 221px;
+    margin-left: 25px;
+    border-radius: 6px;
+    border: solid #eaeaea 1px;
+  }
+
+  .products__item__lenovoImg,
+  .more-products__item__lenovoImg {
+    height: 32px;
+    width: 126px;
+  }
+
+  .products__item__lenovo-arrow,
+  .more-products__item__lenovo-arrow {
+    margin-left: 34px;
+    margin-top: 16px;
+  }
+
+  .products__item__samsungImg {
+    height: 37px;
+    width: 130px;
+  }
+
+  .products__item__samsung-arrow,
+  .more-products__item__samsung-arrow {
+    margin-left: 31px;
+    margin-top: 16px;
+  }
+
+  .products__item__appleImg,
+  .more-products__item__appleImg {
+    height: 44px;
+    width: 44px;
+    margin-left: 12px;
+    margin-top: 11px;
+  }
+
+  .products__item__apple-arrow,
+  .more-products__item__apple-arrow {
+    margin-left: 111px;
+    margin-top: 15px;
+  }
+
+  .products-down {
+    display: flex;
+    margin-top: 17px;
+  }
+
+  .products__item__boschImg {
+    height: 34px;
+    width: 132px;
+  }
+
+  .products__item__bosch-arrow {
+    margin-left: 22px;
+    margin-top: 15px;
+  }
+
+  .products__item__hpImg {
+    height: 52px;
+    width: 53px;
+  }
+
+  .products__item__hp-arrow {
+    margin-left: 106px;
+    margin-top: 15px;
+  }
+
+  .products__item__acerImg {
+    height: 24px;
+    width: 96px;
+  }
+
+  .products__item__acer_arrow {
+    margin-left: 56px;
+    margin-top: 15px;
+  }
+
+  .products__item-sony,
+  .products__item-viewSonic {
+    display: none;
+  }
+  .more {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+  }
+
+  #btn {
+    margin-left: 8px;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    height: 24px;
+    width: 113px;
+    margin-top: 23px;
+    border: none;
+    background: white;
+  }
+
+  #imgDown {
+    height: 24px;
+    width: 24px;
+    margin-left: 25px;
+    margin-top: 21px;
+  }
+
+  .swiper-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .products {
+    display: none;
+  }
+
+  .swiper-container {
+    width: 260px;
+    height: 127px;
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .swiper-slide {
+    background-color: #f5f5f5;
+  }
+
+  .swiper__products {
+    width: 245px;
+    height: 72px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+    margin-left: 24px;
+  }
+
+  .swiper-pagination {
+    color: #7e7e82;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-title {
+    font-family: "TT Lakes";
+    font-size: 31px;
+    line-height: 48px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    margin-left: 32px;
+    margin-top: 16px;
+    width: 665px;
+    margin-top: 31px;
+  }
+}
