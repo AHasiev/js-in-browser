@@ -7,12 +7,13 @@
 
 * {
   padding: 0px;
-  margin: 0px;
+  
 }
 
 .header {
   height: 56px;
   width: 1120px;
+  margin: 0 auto;
 }
 
 .header-title {
@@ -21,30 +22,32 @@
   line-height: 24px;
   letter-spacing: -0.2px;
   text-align: left;
-  margin-left: 32px;
+  margin-left: 42px;
   margin-top: 16px;
 }
 
 .products {
   width: 1120px;
-  max-height: 186px;
+ 
+  margin: 0 auto;  
 }
 
-.products-up {
+.products__container {
   display: flex;
-  margin-top: 7px;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .products__item,
-.products__item-sony,
-.products__item-viewSonic,
 .more-products__item {
   display: flex;
   height: 70px;
   width: 238px;
-  margin-left: 32px;
+  margin-left: 24px;
+  margin-right: 8px;
   border-radius: 6px;
   border: solid #eaeaea 1px;
+  margin-bottom: 24px;
 }
 
 .products__item__lenovoImg,
@@ -98,11 +101,6 @@
 .products__item_viewSonic-arrow {
   margin-left: 32px;
   margin-top: 15px;
-}
-
-.products-down {
-  display: flex;
-  margin-top: 17px;
 }
 
 .products__item__boschImg {
@@ -159,8 +157,6 @@
 
 .more-container {
   display: flex;
-  margin-top: 17px;
-  margin-bottom: 21px;
   width: 819px;
 }
 
@@ -173,10 +169,11 @@
 
 .btn {
   display: flex;
+   margin-left: 26px;
+   align-content: center;
 }
 
-#btn {
-  margin-left: 8px;
+#btn {  
   font-family: TT Lakes;
   font-size: 16px;
   font-weight: 500;
@@ -185,27 +182,26 @@
   text-align: left;
   height: 24px;
   width: 113px;
-  margin-top: 23px;
   border: none;
   background: white;
+  
 }
 
-#imgDown {
+.imgDown {
   height: 24px;
   width: 24px;
-  margin-left: 31px;
-  margin-top: 23px;
 }
 
-#imgUp {
-  display: none;
+.imgUp{  
+  background-color: url(/img/expand.svg);
+  transform: rotate(180deg);
 }
 
 .swiper-container {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
   .header-title {
     font-family: "TT Lakes";
     font-size: 16px;
@@ -216,15 +212,11 @@
     margin-top: 16px;
   }
 
-  .products {
+  .products__container {
     width: 97%;
-    max-height: 186px;
+   
   }
 
-  .products-up {
-    display: flex;
-    margin-top: 7px;
-  }
 
   .products__item,
   .more-products__item {
@@ -308,10 +300,10 @@
     margin-top: 15px;
   }
 
-  .products__item-sony,
+  /* .products__item-sony,
   .products__item-viewSonic {
     display: none;
-  }
+  } */
   .more {
     display: none;
   }
@@ -358,11 +350,11 @@
   }
 
   .swiper-container {
-    width: 260px;
     height: 127px;
     display: flex;
     position: relative;
     margin-top: 100px;
+    overflow: hidden;
   }
 
   .swiper-slide {
@@ -370,13 +362,7 @@
   }
 
   .swiper__products {
-    width: 245px;
-    height: 72px;
-    border: 1px solid #eaeaea;
-    border-radius: 6px;
-    display: flex;
-    background-color: white;
-    margin-left: 24px;
+    display: flex;    
   }
 
   .swiper-pagination {
@@ -387,12 +373,12 @@
 
   .header-title {
     font-family: "TT Lakes";
-    font-size: 31px;
+    font-size: 22px;
     line-height: 48px;
     letter-spacing: -0.2px;
     text-align: left;
     margin-left: 32px;
-    width: 645px;
+    width: 455px;
     margin-top: 31px;
   }
 }
