@@ -219,10 +219,14 @@
 
 } 
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 320px) {
   * {
     margin: 0;
     padding: 0;
+  }
+
+  .header {
+    width: 100%;
   }
 
   .products {
@@ -261,7 +265,7 @@
     letter-spacing: -0.2px;
     text-align: left;
     margin-left: 32px;
-    width: 455px;
+    width: 100%;
     margin-top: 31px;
   }
 }
