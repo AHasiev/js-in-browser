@@ -1,11 +1,11 @@
 function readMore() {
-  const more = document.getElementById("more");
-  const btn = document.getElementById("btn");
-  const imgDown = document.getElementById("imgDown");
+  const more = document.querySelector(".more");
+  const btn = document.querySelector("button");
+  const imgDown = document.querySelector(".imgDown");
 
   if (btn.innerHTML === "Показать все") {
     btn.innerHTML = "Скрыть";
-    more.style.display = "inline";
+    more.style.display = "flex";
   } else {
     btn.innerHTML = "Показать все";
     more.style.display = "none";
