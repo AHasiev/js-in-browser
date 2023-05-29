@@ -15,7 +15,7 @@ function readMore() {
 }
 
 var swiper = new Swiper(".swiper-container", {
-  slidesPerView: 1.15,
+  slidesPerView: 1.30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
